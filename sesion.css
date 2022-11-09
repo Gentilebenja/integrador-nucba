@@ -24,12 +24,22 @@ body{
     justify-content: center;
 }
 
+.inicio{
+    color:#f1d681;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto 40px;
+    align-content: center;
+}
+
 .olvido{  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
 }
 
 .logo-container{
@@ -61,16 +71,25 @@ body{
 }
 
 .perfil{
-    font-size: 50px;
+    font-size: 25pxpx;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px 20px;
+   padding: 10px auto;
+}
+
+.fondo{
+    background-image: url(./imagenes/fondo-hero-2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .grilla{
-    background-color: #583e06;
     font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px 20px;
 }

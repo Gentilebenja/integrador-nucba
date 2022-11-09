@@ -52,6 +52,13 @@ body{
     height: 100%;
 }
 
+.fondo{
+    background-image: url(./imagenes/fondo-hero-2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .nuevousuario{
     font-size: 50px;
     display: flex;
@@ -60,7 +67,6 @@ body{
 }
 
 .grilla{
-    background-color: #583e06;
     font-size: 30px;
     display: flex;
     align-items: center;
